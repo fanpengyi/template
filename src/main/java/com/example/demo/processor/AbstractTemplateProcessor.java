@@ -18,7 +18,7 @@ public abstract class AbstractTemplateProcessor<T> implements DataSupplier<T>,In
     private Set<CertType> types;
 
     public AbstractTemplateProcessor() {
-        this.types = types;
+        this.types = getTypes();
     }
 
     /**
