@@ -15,13 +15,14 @@ import java.util.Set;
 @Slf4j
 public class TemplateService {
 
-
+    /**
+     * 业务方法
+     */
     public void doTemplate(){
 
         // 准备参数
         ParamList paramList = new ParamList();
         paramList.setUseId("6666");
-
 
         Set<CertType> sets = new HashSet<>();
         sets.add(CertType.TYPE_3);
